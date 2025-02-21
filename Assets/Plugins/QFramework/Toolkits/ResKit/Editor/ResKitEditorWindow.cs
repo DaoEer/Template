@@ -38,7 +38,7 @@ namespace QFramework
                 {
                     mConfigInstance = new EncryptConfig();
 
-                    string savePath = Application.dataPath + "QFrameworkData/Resources/EncryptConfig.Json";
+                    string savePath = Application.dataPath + "Resources/QFrameworkData/Resources/EncryptConfig.Json";
                     using (FileStream fs = new FileStream(savePath, FileMode.OpenOrCreate))
                     {
                         using (StreamWriter sw = new StreamWriter(fs, System.Text.Encoding.UTF8))
@@ -78,7 +78,7 @@ namespace QFramework
 
         public void OnDisable()
         {
-            //string savePath = Application.dataPath + "/QFrameworkData/Resources/EncryptConfig.Json";
+            //string savePath = Application.dataPath + "/Resources/QFrameworkData/Resources/EncryptConfig.Json";
             //using (FileStream fs = new FileStream(savePath, FileMode.OpenOrCreate))
             //{
             //    using (StreamWriter sw = new StreamWriter(fs, System.Text.Encoding.UTF8))

@@ -32,7 +32,7 @@ namespace QFramework
 
 #if UNITY_EDITOR
         private static readonly Lazy<string> Dir =
-            new Lazy<string>(() => "Assets/QFrameworkData/LocaleKit/Resources/".CreateDirIfNotExists());
+            new Lazy<string>(() => "Assets/Resources/QFrameworkData/LocaleKit/Resources/".CreateDirIfNotExists());
 
         private const string FileName = "LanguageDefineConfig.asset";
 

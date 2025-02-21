@@ -51,7 +51,7 @@ namespace QFramework
         }
 
         private static readonly Lazy<string> Dir =
-            new Lazy<string>(() => "Assets/QFrameworkData/CodeGenKit/".CreateDirIfNotExists());
+            new Lazy<string>(() => "Assets/Resources/QFrameworkData/CodeGenKit/".CreateDirIfNotExists());
 
         private const string FileName = "Setting.asset";
     }

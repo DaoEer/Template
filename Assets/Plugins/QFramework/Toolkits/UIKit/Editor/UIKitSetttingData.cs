@@ -36,7 +36,7 @@ namespace QFramework
 	[Serializable]
 	public class UIKitSettingData
 	{
-		static string mConfigSavedDir => (Application.dataPath + "/QFrameworkData/").CreateDirIfNotExists() + "ProjectConfig/";
+		static string mConfigSavedDir => (Application.dataPath + "/Resources/QFrameworkData/").CreateDirIfNotExists() + "ProjectConfig/";
 
 		private const string mConfigSavedFileName = "ProjectConfig.json";
 

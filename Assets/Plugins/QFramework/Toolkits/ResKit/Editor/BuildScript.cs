@@ -106,10 +106,10 @@ namespace QFramework
 
         public static void WriteClass()
         {
-            "Assets/QFrameworkData".CreateDirIfNotExists();
+            "Assets/Resources/QFrameworkData".CreateDirIfNotExists();
 
             var path = Path.GetFullPath(
-                Application.dataPath + Path.DirectorySeparatorChar + "QFrameworkData/QAssets.cs");
+                Application.dataPath + Path.DirectorySeparatorChar + "Resources/QFrameworkData/QAssets.cs");
             var writer = new StreamWriter(File.Open(path, FileMode.Create));
             ResDataCodeGenerator.WriteClass(writer, "QAssetBundle");
             writer.Close();
